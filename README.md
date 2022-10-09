@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+Program to track inventory of guns/ammo
+ Can apply submitted rounds shot to active guns depending on type to store in data table
+Can link between shooter and gun and ammo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Program needs
 
-## Available Scripts
+Different user privilege levels 1 through 5 probably 
+Needs to change guns from inactive to active on submit and back through armory
+Need to be able to pull from inventory of rounds when submitted rounds shot and apply the guns that shoot that ammo to divide and apply
+Needs to track rounds shot through guns 
+Needs to have relation between shooter and guns when SKU is scanned
+Needs to pull up data table of all guns and be able to click on individual guns to change stats on its own page
+Needs to pull up data table of all ammo to add inventory or change or delete (fix)
 
-In the project directory, you can run:
 
-### `npm start`
+Overall Use
+**Scan badge = pulls up shooter and guns linked from amory = turns into active gun = range master pull out ammo shot and submits = guns allocate ammo that is linked to them to evenly distribute the amount and save to its stats = gun can be scanned back into armory to deactivate** 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Range Master Use
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Add ammo
+Submit ammo to distribute on active guns
+Edit available ammo and create new ammo types
+Pull up data table of ammo to see stats
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Armory Use
+Can add / delete guns 
+Apply guns to shooters
+Must add / delete ammo that a gun is available to fire
+Activate / Deactivate gun on sku scan (Submit) time stamp also to store time of gun use. 
+Pull up data table of guns to see stats
