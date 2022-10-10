@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   flex-direction: row ;
+   justify-content: space-evenly;
+  }
+  
+  .logout {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    justify-content: space-evenly;
+    border: 4px;
+    border-style: solid;
+    font-size: larger;
+    animation: index 4s infinite;
+    color: white;
+    text-decoration: none;
+  }
+  .headhome {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    justify-content: space-evenly;
+    border: 4px;
+    border-style: solid;
+    font-size: larger;
+    animation: fourth 4s infinite;
+    color: white;
+    text-decoration: none;
+  }
