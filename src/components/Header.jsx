@@ -11,6 +11,12 @@ const Header = () => {
       <Link to="/" className="logout">
         Log Out
       </Link>
+      <Link to="/range" className="range">
+        Range
+      </Link>
+      <Link to="/armory" className="range">
+        Armory
+      </Link>
     </div>
   );
 };
