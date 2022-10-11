@@ -4,6 +4,7 @@ import Login from "../src/screens/Login"
 import Home from "../src/screens/Home"
 import Armory from "../src/screens/Armory"
 import Range from "../src/screens/Range"
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 
 function App() {

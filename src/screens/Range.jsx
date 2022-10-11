@@ -5,7 +5,7 @@ const Range = () => {
     return (
       <div className="homescreen">
         <Header />
-        <h1>Welcome to the Range</h1>
+        <h1 className="Title">Welcome to the Range</h1>
       </div>
     );
   };
