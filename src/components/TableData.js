@@ -1,8 +1,8 @@
 const TableData=[
-    {id:1, fullName:"Noor Khan", age:25, city:"Patna"},
-    {id:2, fullName:"Rapsan Jani", age:26, city:"Noida"},
-    {id:3, fullName:"Monika Singh", age:18, city:"New Delhi"},
-    {id:4, fullName:"Sunil Kumar", age:22, city: "Jaipur"},
-    {id:5, fullName:"Kajol Kumari", age: 21, city: "Chennai"}
+    {id:1, gun:"gun1", rounds:100, shooter:"Patna"},
+    {id:2, gun:"gun2", rounds:584, shooter:"Noida"},
+    {id:3, gun:"gun3", rounds:5454, shooter:"New Delhi"},
+    {id:4, gun:"gun4", rounds:4524, shooter: "Jaipur"},
+    {id:5, gun:"gun5", rounds: 1544, shooter: "Chennai"}
 ]
 export default TableData;

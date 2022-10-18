@@ -1,7 +1,6 @@
 import Header from "../components/Header";
 import "../styles/Home.css"
 
-
 const Armory = () => {
     return (
       <div className="homescreen">
